@@ -1,0 +1,166 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+body{
+    margin: 0;
+    background-color:#35084C;
+}
+.subContainer{
+ height: 100%; padding-bottom: 208.56px; padding-left: 32px; background: #35084C; justify-content: flex-end; align-items: center; display: inline-flex;position: relative;
+}
+.subContainer1{
+    display: grid;
+    grid-template-columns: 1fr 0.90fr;
+    
+}
+.subContainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 150%;
+}
+.title{
+color: white;
+font-size: 70px;
+font-family: 'Inter';
+font-weight: 300;
+line-height: 67.50px;
+word-wrap: break-word;
+position: relative;
+}
+.paragraph{
+color: white;
+font-size: 30px;
+font-family: 'Inter';
+font-weight: 100;
+line-height: 44px;
+word-wrap: break-word;
+position: relative;
+}
+.ex-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+.ex-link1{
+color: #B60AF9;
+font-size: 18px;
+font-family: Inter;
+font-weight: 100;
+line-height: 36px;
+word-wrap: break-word;
+text-decoration: none;
+}
+.arrow{
+    display: none;
+}
+.ex-link1:hover{
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: underline;
+    padding-left: 10px;
+    color: #B60AF9;
+}
+.ex-link1:hover + .arrow{
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: underline;
+    padding-left: 10px;
+    color: #B60AF9;
+}
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header2{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 5%;
+}
+.sub-header{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+   
+}
+.logo{
+    width:100%;
+}
+.link{
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.alink{
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#ffffff;
+    background-color: #b60af9;
+    text-decoration: none;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    width:100px;
+    cursor: pointer;
+}
+.alink:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    padding-right: 25px;
+    background: white;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    border: 0.5px #D0D5DD solid;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    display: flex;
+    cursor: pointer;
+}
+.sign-link{
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#b60af9;
+    text-decoration: none;
+    padding: 10px;
+}
+.sign-link:hover{
+    text-decoration: underline;
+}
